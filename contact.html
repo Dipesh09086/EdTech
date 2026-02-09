@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | EdTech</title>
+
+  
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  
+  <section class="contact-section py-5">
+    <div class="container">
+
+      
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Contact Us</h2>
+        <p class="text-muted">
+          Have questions about our courses? We’re here to help.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        
+        <div class="col-md-6">
+          <div class="card p-4 shadow-sm">
+            <h5 class="mb-3">Get in Touch</h5>
+
+            <form id="contact-form">
+              <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Enter your name">
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Email Address</label>
+                <input type="email" name="email" class="form-control" placeholder="Enter your email">
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Phone Number</label>
+                <input type="text" name="phone" class="form-control" placeholder="Enter your phone">
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Course Interested In</label>
+                <select class="form-select">
+                  <option>Select Course</option>
+                  <option>Web Development</option>
+                  <option>Data Science</option>
+                  <option>UI/UX Design</option>
+                  <option>Digital Marketing</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        
+        <div class="col-md-6">
+          <div class="card p-4 shadow-sm h-100">
+            <h5 class="mb-3">Contact Information</h5>
+
+            <p><strong>Email:</strong> support@edtech.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p>
+              <strong>Address:</strong><br>
+              EdTech Learning Pvt. Ltd.<br>
+              Ahmedabad, Gujarat, India
+            </p>
+
+            <hr>
+
+            <h6>Office Hours</h6>
+            <p>Monday – Friday<br>9:00 AM – 6:00 PM</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
