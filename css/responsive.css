@@ -1,0 +1,14 @@
+@media (max-width: 1920px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero-buttons .btn {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .course-card {
+    margin-bottom: 30px;
+  }
+}
